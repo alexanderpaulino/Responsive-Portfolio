@@ -1,0 +1,408 @@
+html, body {
+	background-color: white;
+	text-align: center;
+	color: #777777;
+	width: 100%;
+	margin: auto;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	overflow: auto;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #ab9da3;
+}
+
+hr {
+	height: 2px;
+	color: #cccccc;
+	background-color: #cccccc;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: none;
+}
+
+.topSection {
+	background-color: white;
+	width: 100%;
+	min-height: 85px;
+}
+
+.header {
+	background-color: #4aaaa5;
+	float: left;
+	font-size: 35px;
+	font-weight: bold;
+	color: white;
+	margin-left: 7.5%;
+	padding: 25px 25px 25px 25px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.nav {
+	background-color: white;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	margin: 20px 8% 20px 20px;
+	float: right;
+	word-spacing: 10px;
+	font-size: 18px;
+}
+
+#centerSection {
+	background-image: url("../images/concrete-texture.png");
+	background-repeat: repeat;
+	min-height: 535px;
+	width: 100%;
+	border-top-style: solid;
+	border-top-color: #cccccc;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #4aaaa5;
+	border-bottom-width: 8px;
+	overflow: auto;
+}
+
+.aboutMeBox {
+	background-color: #ffffff;
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin: 40px 0px 40px 7.5%;
+	padding: 10px 20px 20px 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	overflow: auto;
+	line-height: 2;
+}
+
+.connectBox {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	font-weight: bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	float: right;
+	width: 270px;
+	margin: 40px 7% 40px 0px;
+	padding: 20px 10px 15px 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+}
+
+#facebookButton, #linkedinButton, #githubButton, #twitterButton {
+	height: 55px;
+	width: 55px;
+	margin: 5px 5px 5px 5px;
+}
+
+.aboutMe {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	color: #4aaaa5;
+	font-weight: bold;
+	padding: 0px 18px 0px 10px;
+}
+
+.profilePhoto {
+	float: left;
+	height: 170px;
+	width: 200px;
+	padding: 10px 25px 25px 0px;
+}
+
+.footer {
+	clear: both;
+	height: 50px;
+	background-color: #777;
+	padding: 40px 0px 0px 0px;
+	color: #ebebeb;
+	font-size: 14px;
+	overflow: auto;
+}
+
+.contactBox {
+	background-color: #ffffff;
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin: 40px 0px 40px 7.5%;
+	padding: 10px 20px 20px 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	overflow: auto;
+	line-height: 2;	
+}
+
+.contact {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	color: #4aaaa5;
+	font-weight: bold;
+	padding: 0px 18px 0px 0px;
+}
+
+.resizedNameBox, .resizedEmailBox {
+	width: 97%;
+	height: 20px;
+	padding-left: 10px;
+}
+
+.textarea {
+	width: 97%;
+	height: 145px;
+	padding-left: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	resize: none;
+}
+
+.resizedSubmitBox {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+::-moz-placeholder {
+    color: #cccccc;
+}
+
+::-ms-placeholder {
+    color: #cccccc;
+}
+
+::placeholder {
+    color: #cccccc;
+}
+
+.portfolioBox {
+	background-color: #ffffff;
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin: 40px 0px 40px 7.5%;
+	padding: 10px 20px 20px 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+	overflow: auto;
+	line-height: 2;	
+}
+
+.portfolio {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 30px;
+	color: #4aaaa5;
+	font-weight: bold;
+	margin: 0px 18px 0px 0px;
+}
+
+#hologramButton, #networkingButton, #iosrpgButton, 
+#roboticsButton, #cloudButton, #droneButton {
+	height: 150px;
+	width: 150px;
+	margin: 0px 0px 0px 0px;
+}
+
+.container {
+	float: left;
+	position: relative;
+	margin: 10px 10px 5px 35px;;
+}
+
+.buttonLink {
+	position: absolute;
+	z-index: 1;
+	width: 150px;
+	bottom: 22px;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 6px 0px 6px 0px;
+}
+
+@media screen and (max-width: 980px) {
+
+	body, html {
+		max-width: 980px;
+	}
+    
+    .header {
+		margin-left: 10%;
+		margin-right: 0;
+	}
+
+	.nav {
+		margin-right: 5%;
+		margin-left: 0;
+	}
+
+	.connectBox {
+		margin-right: 4%;
+	}
+
+	.aboutMeBox, .contactBox, .portfolioBox {
+  		margin-left: 10%;
+  		margin-right: 0%;
+  		padding: 30px;
+  		width: 45%;
+  	}
+
+  	.profilePhoto {
+  		height: 250px;
+  		width: 90%;
+  		padding: 0;
+  		margin: 5%;
+  	}		
+
+  	#hologramButton, #networkingButton, #iosrpgButton, 
+	#roboticsButton, #cloudButton, #droneButton {
+		margin-left: 5%;
+		width: 100%;
+		height: 200px;	
+	}
+
+	.buttonLink {
+		margin-left: 5%;
+		width: 100%;
+		font-size: 16px;
+		bottom: 40px;
+	}
+
+	.container {
+		padding-top: 10px;
+		padding-bottom: 8px;
+		width: 40%;
+		margin-left: 4.5%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+  	
+	body, html {
+		max-width: 768px;
+	}
+
+    .header {
+		margin-left: 3%;
+	}
+
+	.nav {
+		margin-right: 4%;
+	}
+
+	.profilePhoto {
+		height: 200px;
+  		width: 35%;
+  		margin: 1% 3% 1% 0;
+  		padding: 0;
+  	}
+
+    .connectBox {
+    	margin: 15px 3% 30px 3%;
+		width: 89%;
+		padding: 20px;
+		float: left;
+	}
+
+	.aboutMeBox, .contactBox, .portfolioBox {
+  		margin: 30px 3% 15px 3%;
+  		padding: 30px;
+  		width: 86.5%;
+  	}		
+
+  	#hologramButton, #networkingButton, #iosrpgButton, 
+	#roboticsButton, #cloudButton, #droneButton {
+		margin-left: 16%;
+		width: 90%;
+		height: 200px;
+		padding-top: 8px;
+	}
+
+	.buttonLink {
+		margin-left: 16%;
+		width: 90%;
+		font-size: 20px;
+		bottom: 50px;
+	}
+
+	.container {
+		padding-top: 15px;
+		padding-bottom: 8px;
+		width: 45%;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 640px) {
+
+	body, html {
+		max-width: 640px;
+	}
+  
+    .header {
+    	position: static;
+		width: 100%;
+		float: left;
+		margin: 0 auto;
+		padding: 20px 0px 20px 0px;
+	}
+
+	.nav {
+		width: 100%;
+		clear: left;
+		margin: 0 auto;
+		padding: 20px 0px 20px 0px;
+		word-spacing: 65px;
+	}
+
+	.profilePhoto {
+		height: 350px;
+  		width: 95%;
+  		margin: 3% 3% 3% 3%;
+  		padding: 0;
+  	}
+
+    .connectBox {
+    	margin: 15px 3% 30px 3%;
+		width: 87%;
+		padding: 20px;
+		float: left;
+	}
+
+	.aboutMeBox, .contactBox, .portfolioBox {
+  		margin: 30px 3% 15px 3%;
+  		padding: 30px;
+  		width: 84%;
+  	}		
+
+  	#hologramButton, #networkingButton, #iosrpgButton, 
+	#roboticsButton, #cloudButton, #droneButton {
+		margin-left: 9%;
+		width: 100%;
+		height: 350px;	
+	}
+
+	.buttonLink {
+		margin-left: 9%;
+		width: 100%;
+		font-size: 20px;
+		bottom: 50px;
+	}
+
+	.container {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		width: 85%;
+		margin: 0;
+	}
+}
