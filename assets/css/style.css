@@ -533,6 +533,17 @@ hr {
 	}
 }
 
+@media screen and (max-width: 600px) {
+
+	body, html {
+		max-width: 600px;
+	}
+
+	.nav {
+		word-spacing: 50px;
+	}
+}
+
 @media screen and (max-width: 560px) {
 
 	body, html {
