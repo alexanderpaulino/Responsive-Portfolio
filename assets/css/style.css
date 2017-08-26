@@ -431,21 +431,26 @@ hr {
 	}
 
     .header {
-		margin-left: 0;
-		padding-left: 10px;
-		padding-right: 10px;
+		margin-left: 0%;
+		padding-left: 8px;
+		padding-right: 8px;
 	}
 
 	.nav {
-		margin-right: 4%;
 		margin-top: 3%;
+		margin-right: 6%;
 		padding-left: 0px;
 		padding-right: 0px;
 	}
 
-	.aboutMeBox {
-		margin-left: 2.5%;
-	}
+	.aboutMeBox, .contactBox, .portfolioBox {
+  		margin: 30px 3% 15px 3%;
+  		width: 85.5%;
+  	}
+
+  	.connectBox {
+  		width: 88.5%;
+  	}
 }
 
 @media screen and (max-width: 640px) {
