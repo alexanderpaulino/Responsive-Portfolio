@@ -431,15 +431,20 @@ hr {
 	}
 
     .header {
-		margin-left: 1%;
+		margin-left: 0;
 		padding-left: 10px;
 		padding-right: 10px;
 	}
 
 	.nav {
-		margin-right: 2%;
+		margin-right: 4%;
+		margin-top: 3%;
 		padding-left: 0px;
 		padding-right: 0px;
+	}
+
+	.aboutMeBox {
+		margin-left: 2.5%;
 	}
 }
 
