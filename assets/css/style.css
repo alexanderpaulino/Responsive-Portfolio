@@ -286,6 +286,87 @@ hr {
 	}
 }
 
+@media screen and (max-width: 880px) {
+
+	html, body {
+		max-width: 880px;
+	}
+
+	.connectBox {
+		margin-right: 2%;
+	}
+
+	.aboutMeBox, .contactBox, .portfolioBox {
+  		margin-left: 5%;
+  		margin-right: 0%;
+  		padding: 30px;
+  		width: 45%;
+  	}
+
+  	.header {
+		margin-left: 5%;
+		margin-right: 0;
+	}
+
+}
+
+@media screen and (max-width: 780px) {
+  	
+	body, html {
+		max-width: 780px;
+	}
+
+    .header {
+		margin-left: 3%;
+	}
+
+	.nav {
+		margin-right: 4%;
+	}
+
+	.profilePhoto {
+		height: 200px;
+  		width: 35%;
+  		margin: 1% 3% 1% 0;
+  		padding: 0;
+  	}
+
+    .connectBox {
+    	margin: 15px 3% 30px 3%;
+		width: 89%;
+		padding: 20px;
+		float: left;
+	}
+
+	.aboutMeBox, .contactBox, .portfolioBox {
+  		margin: 30px 3% 15px 3%;
+  		padding: 30px;
+  		width: 86.5%;
+  	}		
+
+  	#hologramButton, #networkingButton, #iosrpgButton, 
+	#roboticsButton, #cloudButton, #droneButton {
+		margin-left: 16%;
+		width: 90%;
+		height: 200px;
+		padding-top: 8px;
+	}
+
+	.buttonLink {
+		margin-left: 16%;
+		width: 90%;
+		font-size: 20px;
+		bottom: 50px;
+	}
+
+	.container {
+		padding-top: 15px;
+		padding-bottom: 8px;
+		width: 45%;
+		margin: 0;
+	}
+}
+
 @media screen and (max-width: 768px) {
   	
 	body, html {
@@ -343,6 +424,25 @@ hr {
 	}
 }
 
+@media screen and (max-width: 714px) {
+  	
+	body, html {
+		max-width: 714px;
+	}
+
+    .header {
+		margin-left: 1%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.nav {
+		margin-right: 2%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+
 @media screen and (max-width: 640px) {
 
 	body, html {
@@ -368,7 +468,7 @@ hr {
 	.profilePhoto {
 		height: 350px;
   		width: 95%;
-  		margin: 3% 3% 3% 3%;
+  		margin: 3%;
   		padding: 0;
   	}
 
@@ -407,113 +507,81 @@ hr {
 	}
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 560px) {
 
 	body, html {
-		max-width: 414px;
-	}
-  
-    .header {
-    	position: static;
-		width: 100%;
-		float: left;
-		margin: 0 auto;
-		padding: 20px 0px 20px 0px;
+		max-width: 560px;
 	}
 
 	.nav {
-		width: 100%;
-		clear: left;
-		margin: 0 auto;
-		padding: 20px 0px 20px 0px;
+		word-spacing: 50px;
+	}		
+}
+
+@media screen and (max-width: 482px) {
+
+	body, html {
+		max-width: 482px;
+	}
+
+	.nav {
 		word-spacing: 30px;
 	}
 
-	.profilePhoto {
-		height: 350px;
-  		width: 95%;
-  		margin: 3% 3% 3% 3%;
-  		padding: 0;
-  	}
-
     .connectBox {
     	margin: 15px 3% 30px 4%;
-		width: 85%;
 		padding: 15px;
-		float: left;
+		width: 85%;
 	}
 
 	.aboutMeBox, .contactBox, .portfolioBox {
   		margin: 30px 3% 15px 4%;
   		padding: 15px;
   		width: 85%;
-  	}		
+  	}
+}
+
+@media screen and (max-width: 414px) {
+
+	body, html {
+		max-width: 414px;
+	}
 
   	#hologramButton, #networkingButton, #iosrpgButton, 
 	#roboticsButton, #cloudButton, #droneButton {
-		margin-left: 9%;
-		width: 100%;
-		height: 350px;	
-	}
-
-	.buttonLink {
-		margin-left: 9%;
-		width: 100%;
-		font-size: 20px;
-		bottom: 50px;
-	}
-
-	.container {
-		padding-top: 15px;
-		padding-bottom: 15px;
-		width: 85%;
-		margin: 0;
+		height: 300px;	
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
 
 	body, html {
-		max-width: 320px;
+		max-width: 375px;
 	}
   
     .header {
-    	position: static;
-		width: 100%;
-		float: left;
-		margin: 0 auto;
-		padding: 20px 0px 20px 0px;
 		font-size: 28px;
 	}
 
 	.nav {
-		width: 100%;
-		clear: left;
-		margin: 0 auto;
-		padding: 20px 0px 20px 0px;
-		word-spacing: 18px;
+		word-spacing: 12px;
 		font-size: 18px
 	}
 
 	.profilePhoto {
 		height: 250px;
   		width: 95%;
-  		margin: 3% 3% 3% 3%;
   		padding: 0 0 10px 0;
   	}
 
     .connectBox {
-    	margin: 15px 3% 30px 4%;
 		width: 85%;
 		padding: 10px;
-		float: left;
 		font-size: 22px;
 	}
 
 	.aboutMeBox, .contactBox, .portfolioBox {
-  		margin: 30px 3% 15px 4%;
   		padding: 10px;
-  		width: 85%;
   	}
 
   	.aboutMe, .portfolio, .contact {
@@ -545,4 +613,15 @@ hr {
 		width: 85%;
 		margin: 0;
 	}
+}
+
+@media screen and (max-width: 320px) {
+
+	body, html {
+		max-width: 320px;
+	}
+
+	.profilePhoto {
+  		margin: 3%;
+  	}
 }
