@@ -29,7 +29,7 @@ hr {
 }
 
 .header {
-	background-color: #4aaaa5;
+	background-color: #335580;
 	float: left;
 	font-size: 35px;
 	font-weight: bold;
@@ -43,7 +43,7 @@ hr {
 	background-color: white;
 	text-align: center;
 	padding: 10px 10px 10px 10px;
-	margin: 32px 8% 0px 20px;
+	margin: 32px 11% 0px 20px;
 	float: right;
 	word-spacing: 10px;
 	font-size: 18px;
@@ -58,7 +58,7 @@ hr {
 	border-top-color: #cccccc;
 	border-top-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: #4aaaa5;
+	border-bottom-color: #335580;
 	border-bottom-width: 8px;
 	overflow: auto;
 }
@@ -79,7 +79,7 @@ hr {
 
 .connectBox {
 	background-color: #ffffff;
-	color: #4aaaa5;
+	color: #335580;
 	font-weight: bold;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 24px;
@@ -92,7 +92,7 @@ hr {
 	border-color: #cccccc;
 }
 
-#facebookButton, #linkedinButton, #githubButton, #twitterButton {
+#linkedinButton, #githubButton, #gmailButton {
 	height: 55px;
 	width: 55px;
 	margin: 5px 5px 5px 5px;
@@ -101,14 +101,14 @@ hr {
 .aboutMe {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 30px;
-	color: #4aaaa5;
+	color: #335580;
 	font-weight: bold;
 	padding: 0px 18px 0px 10px;
 }
 
 .profilePhoto {
 	float: left;
-	height: 170px;
+	height: 200px;
 	width: 200px;
 	padding: 10px 25px 25px 0px;
 }
@@ -140,7 +140,7 @@ hr {
 .contact {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 30px;
-	color: #4aaaa5;
+	color: #335580;
 	font-weight: bold;
 	padding: 0px 18px 0px 0px;
 }
@@ -160,7 +160,7 @@ hr {
 }
 
 .resizedSubmitBox {
-	background-color: #4aaaa5;
+	background-color: #335580;
 	color: white;
 	padding: 10px 20px 10px 20px;
 	font-size: 20px;
@@ -200,13 +200,12 @@ hr {
 .portfolio {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 30px;
-	color: #4aaaa5;
+	color: #335580;
 	font-weight: bold;
 	margin: 0px 18px 0px 0px;
 }
 
-#hologramButton, #networkingButton, #iosrpgButton, 
-#roboticsButton, #cloudButton, #droneButton {
+#cureButton, #friendButton, #neighborhoodButton {
 	height: 150px;
 	width: 150px;
 	margin: 0px 0px 0px 0px;
@@ -226,7 +225,7 @@ hr {
 	text-align: center;
 	line-height: 25px;
 	color: white;
-	background-color: #4aaaa5;
+	background-color: #335580;
 	padding: 6px 0px 6px 0px;
 }
 
@@ -258,14 +257,13 @@ hr {
   	}
 
   	.profilePhoto {
-  		height: 250px;
+  		height: 275px;
   		width: 90%;
   		padding: 0;
   		margin: 5%;
   	}		
 
-  	#hologramButton, #networkingButton, #iosrpgButton, 
-	#roboticsButton, #cloudButton, #droneButton {
+  	#cureButton, #friendButton, #neighborhoodButton {
 		margin-left: 5%;
 		width: 100%;
 		height: 200px;	
@@ -314,14 +312,13 @@ hr {
   	}
 
   	.profilePhoto {
-  		height: 250px;
+  		height: 275px;
   		width: 90%;
   		padding: 0;
   		margin: 5%;
   	}		
 
-  	#hologramButton, #networkingButton, #iosrpgButton, 
-	#roboticsButton, #cloudButton, #droneButton {
+  	#cureButton, #friendButton, #neighborhoodButton {
 		margin-left: 5%;
 		width: 100%;
 		height: 200px;	
@@ -385,7 +382,7 @@ hr {
 	}
 
 	.profilePhoto {
-		height: 200px;
+		height: 275px;
   		width: 35%;
   		margin: 1% 3% 1% 0;
   		padding: 0;
@@ -404,8 +401,7 @@ hr {
   		width: 86.5%;
   	}		
 
-  	#hologramButton, #networkingButton, #iosrpgButton, 
-	#roboticsButton, #cloudButton, #droneButton {
+  	#cureButton, #friendButton, #neighborhoodButton {
 		margin-left: 16%;
 		width: 90%;
 		height: 200px;
@@ -445,7 +441,7 @@ hr {
 	}
 
 	.profilePhoto {
-		height: 200px;
+		height: 250px;
   		width: 35%;
   		margin: 1% 3% 1% 0;
   		padding: 0;
@@ -464,8 +460,7 @@ hr {
   		width: 86.5%;
   	}		
 
-  	#hologramButton, #networkingButton, #iosrpgButton, 
-	#roboticsButton, #cloudButton, #droneButton {
+  	#cureButton, #friendButton, #neighborhoodButton {
 		margin-left: 16%;
 		width: 90%;
 		height: 200px;
@@ -548,7 +543,7 @@ hr {
 	}
 
 	.profilePhoto {
-		height: 350px;
+		height: 380px;
   		width: 95%;
   		margin: 3%;
   		padding: 0;
@@ -567,8 +562,7 @@ hr {
   		width: 84%;
   	}		
 
-  	#hologramButton, #networkingButton, #iosrpgButton, 
-	#roboticsButton, #cloudButton, #droneButton {
+  	#cureButton, #friendButton, #neighborhoodButton {
 		margin-left: 9%;
 		width: 100%;
 		height: 350px;	
@@ -648,8 +642,7 @@ hr {
 		max-width: 414px;
 	}
 
-  	#hologramButton, #networkingButton, #iosrpgButton, 
-	#roboticsButton, #cloudButton, #droneButton {
+  	#cureButton, #friendButton, #neighborhoodButton {
 		height: 300px;	
 	}
 }
@@ -670,7 +663,7 @@ hr {
 	}
 
 	.profilePhoto {
-		height: 250px;
+		height: 300px;
   		width: 95%;
   		padding: 0 0 10px 0;
   	}
@@ -694,8 +687,7 @@ hr {
   		padding: 8px;
   	}
 
-  	#hologramButton, #networkingButton, #iosrpgButton, 
-	#roboticsButton, #cloudButton, #droneButton {
+  	#cureButton, #friendButton, #neighborhoodButton {
 		margin-left: 9%;
 		width: 100%;
 		height: 250px;	
