@@ -206,27 +206,40 @@ hr {
 }
 
 #cureButton, #friendButton, #neighborhoodButton {
-	height: 150px;
-	width: 150px;
+	height: 350px;
+	width: 100%;
 	margin: 0px 0px 0px 0px;
 }
 
 .container {
 	float: left;
 	position: relative;
-	margin: 10px 10px 5px 35px;;
+	margin: 10px 10px 5px 10px;;
 }
 
 .buttonLink {
 	position: absolute;
 	z-index: 1;
-	width: 150px;
+	width: 100%;
 	bottom: 22px;
 	text-align: center;
 	line-height: 25px;
 	color: white;
 	background-color: #335580;
 	padding: 6px 0px 6px 0px;
+}
+
+@media screen and (max-width: 1300px) {
+
+#cureButton, #friendButton, #neighborhoodButton {
+		width: 100%;
+		height: 325px;	
+	}
+
+.buttonLink {
+		width: 100%;
+	}
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -264,24 +277,16 @@ hr {
   	}		
 
   	#cureButton, #friendButton, #neighborhoodButton {
-		margin-left: 5%;
 		width: 100%;
 		height: 200px;	
 	}
 
 	.buttonLink {
-		margin-left: 5%;
 		width: 100%;
 		font-size: 16px;
 		bottom: 40px;
 	}
 
-	.container {
-		padding-top: 10px;
-		padding-bottom: 8px;
-		width: 40%;
-		margin-left: 4.5%;
-	}
 }
 
 @media screen and (max-width: 980px) {
@@ -319,24 +324,16 @@ hr {
   	}		
 
   	#cureButton, #friendButton, #neighborhoodButton {
-		margin-left: 5%;
 		width: 100%;
 		height: 200px;	
 	}
 
 	.buttonLink {
-		margin-left: 5%;
 		width: 100%;
 		font-size: 16px;
 		bottom: 40px;
 	}
 
-	.container {
-		padding-top: 10px;
-		padding-bottom: 8px;
-		width: 40%;
-		margin-left: 4.5%;
-	}
 }
 
 @media screen and (max-width: 880px) {
@@ -402,14 +399,12 @@ hr {
   	}		
 
   	#cureButton, #friendButton, #neighborhoodButton {
-		margin-left: 16%;
 		width: 90%;
 		height: 200px;
 		padding-top: 8px;
 	}
 
 	.buttonLink {
-		margin-left: 16%;
 		width: 90%;
 		font-size: 20px;
 		bottom: 50px;
