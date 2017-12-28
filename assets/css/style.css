@@ -229,24 +229,24 @@ hr {
 	padding: 6px 0px 6px 0px;
 }
 
-@media screen and (max-width: 1650px) {
-
-#cureButton, #friendButton, #neighborhoodButton {
-		height: 600px;	
-	}
-}
-
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
 
 #cureButton, #friendButton, #neighborhoodButton {
 		height: 500px;	
 	}
 }
 
+@media screen and (max-width: 1500px) {
+
+#cureButton, #friendButton, #neighborhoodButton {
+		height: 440px;	
+	}
+}
+
 @media screen and (max-width: 1400px) {
 
 #cureButton, #friendButton, #neighborhoodButton {
-		height: 400px;	
+		height: 380px;	
 	}
 }
 
